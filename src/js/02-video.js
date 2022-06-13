@@ -9,3 +9,4 @@ player.on('timeupdate', throttle(({seconds}) => {
 	localStorage.setItem(LOCAL_KEY, seconds);},1000));
 
 player.setCurrentTime(localStorage.getItem(LOCAL_KEY));
+//throttle(ffff,1000);
