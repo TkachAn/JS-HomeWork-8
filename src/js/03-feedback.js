@@ -31,7 +31,7 @@ function onData(){
 		}
 	localStorage.setItem(LOCAL_KEY, JSON.stringify(mem));
 };
-//--*function*--//
+//---*function*---//
 function setText(){
 	let localStor = JSON.parse(localStorage.getItem(LOCAL_KEY));
 	form.email.value = localStor.email;
