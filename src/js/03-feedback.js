@@ -33,7 +33,7 @@ function onData(){
 };
 //---*function*---//
 function setText(){
-	let localStor = JSON.parse(localStorage.getItem(LOCAL_KEY));
+	const localStor = JSON.parse(localStorage.getItem(LOCAL_KEY));
 	form.email.value = localStor.email;
 	form.message.value = localStor.message;
 }
