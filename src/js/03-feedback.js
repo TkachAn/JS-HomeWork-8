@@ -14,7 +14,7 @@ if(localStorage.getItem(LOCAL_KEY)){setText();}
 function onFormSub(event){
 	event.preventDefault();
 	//--*--//
-	locStor = localStorage.getItem(LOCAL_KEY);
+	const locStor = localStorage.getItem(LOCAL_KEY);
 	console.log('JSON',locStor);
  	console.log('OBJ',JSON.parse(locStor));
 	localStorage.removeItem(LOCAL_KEY);
